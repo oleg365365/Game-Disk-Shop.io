@@ -41,3 +41,14 @@ footer {
   background: #212529;
   color: white;
 }
+
+/* Анімація кнопок при наведенні */
+.btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    will-change: transform;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
